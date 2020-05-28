@@ -107,7 +107,6 @@ ul {
     margin-top: 30%;
   }
 }
-
 /* Features Section */
 .features {
   padding: 100px 0;
@@ -196,7 +195,27 @@ height: 100%;
 }
 @media screen and (max-width: 767px) {
   .iPhone-box {
-
     display: none;
   }
+}
+/* Reviews Section */
+.reviews {
+  background: url('../img/slider-bg.png') center center no-repeat;
+}
+.reviews-slider {
+  padding: 80px 0;
+}
+.reviews-slider-item {
+  padding-top: 150px;
+  background: url('../img/slider-avatar.png') center top no-repeat;
+  color: #fff;
+  opacity: .7;
+  font-style: italic;
+  font-size: 16px;
+}
+.reviews-slider-item-text {
+  font-size: 30px;
+}
+.reviews-slider-item p {
+  margin-top: 20px;
 }
